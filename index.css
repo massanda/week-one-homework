@@ -1,0 +1,75 @@
+.Contact {
+  text-align: center;
+}
+
+.nav-bar a {
+  text-align: center;
+  position: sticky;
+  display: inline-block;
+}
+
+
+.nav-bar li a {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  line-height: 20px;
+  color:white;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  display: block;
+}
+
+.nav-bar a:hover {
+  background: grey;
+  color: #fff;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.vertical-menu {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+.vertical-menu a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  padding: 2px;
+}
+
+.vertical-menu a:hover {
+  /* background-color: #000; */
+  animation: bounce 0.6s;
+}
+
+body {
+  font-family: helvetica;
+  color: #c1c4c9;
+  background-image: url(file:///Users/arunmassand/Desktop/Websites/Background%20Images/black-sand.jpg);
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+}
