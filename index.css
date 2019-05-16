@@ -2,24 +2,22 @@
   text-align: center;
 }
 
+
 .nav-bar a {
   text-align: center;
-  position: sticky;
-  display: inline-block;
-}
-
-
-.nav-bar li a {
-  text-decoration: none;
-  display: block;
   font-size: 15px;
   line-height: 20px;
   color:white;
 }
 
-.nav-bar li {
+.nav-bar {
   list-style-type: none;
-  display: block;
+  color: grey;
+  display: inline-block;
+  position: sticky;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .nav-bar a:hover {
@@ -73,3 +71,7 @@ body {
   background-position: center;
   height: 100vh;
 }
+
+/*.Education h1 {
+  color: white;
+}*/
